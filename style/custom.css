@@ -1,0 +1,159 @@
+.fl {float:left;}
+
+.fr {float:right}
+
+.container 
+{width: 100%;
+max-width: 1140px;;
+overflow:hidden;
+margin:0 auto;
+}
+
+
+.navigation
+     li
+        {float:right;
+        font-family: 'KyivType Sans'}
+
+body{ background: #848891;}
+
+.header {
+    height: 50px;
+    margin: 20px 0;
+}
+
+.header-logo {
+    margin-left: 72px;
+    
+    height: 100%;
+}
+
+.navigation a {
+        color: aliceblue;
+        font-family:'KyivTypeSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 20px 20px;
+
+}
+
+.main-slide {
+    width: 1245px;
+    height: 714px;
+    background: rgba(108, 32, 11, 0.3);
+    border-radius: 43px 0px 0px 43px;
+    position: relative;
+}
+
+line {width: 3px;
+    height: 20em;
+    align-self: center;}
+
+h1 {font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 115.4%;
+    
+    text-transform: uppercase;}
+
+h2 {font-family: 'KyivType Sans';
+    font-style: normal;
+    font-size: 56px;
+    font-weight: 100;}
+h3 {
+    font-size: 50px;
+}
+
+.titles {
+    float: left;
+    left: auto;
+    top: 25%;
+    right: -1%;
+    bottom: 0%;
+} 
+
+.order {
+    background-color:#728BAD;
+    width:225px ;
+    height: 58px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.imgs {
+    float: right;
+    padding-top: 50px ;
+}
+
+.image {
+    margin: 0 300px 50px 0;
+}
+
+ main, section, article{
+    display: inline-block;
+}
+main{
+    width: 100%;
+}
+
+.oak {
+    float: left;
+}
+
+.buk {
+    float: center;
+}
+
+.ash {
+    float: right;
+}
+
+.advantages {
+    position: center;
+}
+
+.about {
+    width: 1245px;
+    height: 714px;
+    background: rgba(108, 32, 11, 0.3);
+    border-radius: 0px 43px 43px 0px;
+    position: relative;
+}
+.about_text {
+    float: left;
+    left: auto;
+    top: 25%;
+    right: -1%;
+    bottom: 0%;
+    width: 19.96em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.img-text {
+    float: left;
+    
+}
+
+.desrciption {
+    float: right;
+    
+}
+
+p {
+    font-size: 30px;
+}
+
+
+
+footer {
+    position: relative;
+    padding: 50px 30px 15px;
+    border-bottom: 1px solid #e4ebf3;
+    background-color: #414141;
+    box-shadow: 0 0 54px 4px #686868;
+}
